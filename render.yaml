@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: hi2checker-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot-1_2.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: OWNER_ID
+        sync: false
