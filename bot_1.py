@@ -44,7 +44,7 @@ load_dotenv()
 #  CONFIG
 # ══════════════════════════════════════════════════════════════════════════════
 
-_raw_token = os.environ.get("BOT_TOKEN", "99178184370:AAGVmMFiDmJH8TL1BNjufWMEW_9yGH7zNGg").strip()
+_raw_token = os.environ.get("BOT_TOKEN", "9178184370:AAHLwKmA-WlaUCTuZDUS6THD3OPNbeVrIhI").strip()
 if not _raw_token:
     raise SystemExit("FATAL: BOT_TOKEN is required.")
 BOT_TOKEN = _raw_token
